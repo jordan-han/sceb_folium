@@ -16,7 +16,7 @@ if __name__ == "__main__":
     main()
 
 # Read in CSV file
-df = pd.read_csv('C:/Users/Admin/Desktop/fakescebdata.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/jordan-han/sceb_folium/main/fakescebdata.csv')
 
 # Data pre-processing (Change to datetime format, Extract Year and Month)
 df['datetime'] = df['date'] + ' ' + df['case time']
